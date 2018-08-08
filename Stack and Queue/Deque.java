@@ -123,37 +123,4 @@ public class Deque<Item> implements Iterable<Item> {
         return new DequeIterator();
     }
 
-
-    // unit testing (optional)
-    public static void main(String[] args) {
-        /*
-        Deque deque = new Deque();
-        deque.addFirst("A");
-        deque.addFirst("B");
-        deque.addFirst("c");
-        deque.addFirst("d");
-        deque.removeFirst();
-        deque.addLast("e");
-        deque.addLast("f");
-        deque.removeFirst();
-        deque.removeLast();
-        deque.addLast("g");
-        deque.addLast("h");
-        deque.removeLast();
-        for (Object s : deque) {
-            StdOut.println(s);
-        }
-
-        Deque<Integer> deque = new Deque<Integer>();
-        deque.addLast(0);
-        StdOut.println(deque.removeFirst());     //==> 0
-        StdOut.println(deque.isEmpty());         //==> true
-        deque.addLast(3);
-        for (Object s : deque) {
-            StdOut.println(s);
-        }
-        StdOut.println(deque.removeFirst());     //==> 0
-        */
-    }
-
 }

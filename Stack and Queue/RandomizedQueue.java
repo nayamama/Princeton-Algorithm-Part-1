@@ -97,24 +97,4 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return new RandomizedQueueIterator();
     }
 
-    /* unit testing (optional)
-    public static void main(String[] args) {
-        RandomizedQueue randomque = new RandomizedQueue();
-        randomque.enqueue("a");
-        randomque.enqueue("b");
-        randomque.enqueue(3);
-        randomque.dequeue();
-        System.out.format("The randomly chosen example is %s.\n", randomque.sample());
-        randomque.dequeue();
-        randomque.dequeue();
-        StdOut.println(randomque.isEmpty());
-        randomque.enqueue("a");
-        randomque.enqueue(4);
-        randomque.enqueue("item");
-        randomque.dequeue();
-        for (Object item: randomque) {
-            StdOut.println(item);
-        }
-        StdOut.println("The size of queue is : " + Integer.toString(randomque.size()));
-    }*/
 }
